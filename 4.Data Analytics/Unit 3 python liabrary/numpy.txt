@@ -1,0 +1,37 @@
+import numpy as np
+arr=np.array([[2,4,6],[5,10,15],[8,16,24]],np.int64) #by list
+
+# print("the shape is ",arr.shape)
+# print("The size is ",arr.size)
+# arr[1,1]=69
+# print(arr)
+# print(arr.ndim)
+# zero=np.zeros((2,3))
+# print(zero)
+# r=np.arange(10)
+# print(r)
+# lspace=np.linspace(1,5,1)
+# print(lspace)
+# id=np.identity(10)
+# print(id)
+# print(id.shape)
+# pp=np.arange(15)
+# pp.reshape(3,5)
+#
+# print(pp)
+
+ar=np.array([[1,2,3],[4,5,6],[7,1,10]])
+# print(ar.sum(axis=0))
+# print(ar.sum(axis=1))
+print(ar)
+print("oookkk")
+print(np.where(ar>5))
+# nn=ar.T
+# print(nn)
+# add=arr*nn
+# print("the \n is")
+# print(add)
+
+one=np.array([[23,4,56,76,2,43,65,853]])
+# print(one.argmax())
+# print(one.argsort())
